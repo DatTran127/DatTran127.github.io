@@ -95,10 +95,8 @@ $(document).ready(function () {
     if (count > 0) {
       for (let i = 1; i <= count; i++) {
         n = n + a[i];
-        if (i == text.length + 1) {
-          $("#txtReason").val("");
-          n = "";
-          break;
+        if (i >= text.length + 1) {
+          continue;
         }
       }
     }
