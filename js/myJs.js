@@ -96,7 +96,7 @@ $(document).ready(function () {
       for (let i = 1; i <= count; i++) {
         n = n + a[i];
         if (i >= text.length + 1) {
-          continue;
+          break;
         }
       }
     }
@@ -136,7 +136,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "http://fb.com";
+            window.location = "https://www.messenger.com/t/100015616415126";
           },
         });
       }
